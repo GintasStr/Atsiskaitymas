@@ -166,4 +166,6 @@ header {
   width: 290px;
   height: 110px;
   background-color: lightgray;
+  display: flex;
+  justify-content: space-between;
 }
