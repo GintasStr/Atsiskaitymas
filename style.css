@@ -103,8 +103,7 @@ header {
   width: 364px;
   height: 96px;
   font-family: "Inter";
-  font-style: bold;
-  font-weight: 500;
+  font-weight: bold;
   font-size: 40px;
   line-height: 48px;
   text-align: left;
@@ -166,6 +165,52 @@ header {
   width: 290px;
   height: 110px;
   background-color: lightgray;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
   display: flex;
-  justify-content: space-between;
+}
+
+.ntf-gloop {
+  margin: 20px 0 12px 24px;
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: goldenrod;
+}
+
+.ntf-bold {
+  margin: 0 0 12px 24px;
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 100%;
+}
+
+.eth {
+  float: left;
+  height: auto;
+  margin-right: 8px;
+}
+
+.ntf-grey {
+  margin: 0 0 12px 24px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  color: #777777;
+}
+
+.ntf-right {
+  margin: 20px 24px 0 0;
+  text-align: right;
+}
+
+.footer-upsell {
+  width: 683px;
+  height: 630px;
+  margin: 60px 0 0 32px;
+  display: flex;
 }
