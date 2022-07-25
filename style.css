@@ -3,214 +3,273 @@
   src: url("assets/Inter/Inter-Regular.ttf");
 }
 
-body {
-  margin: 0;
-  width: 428px;
-  border: solid grey 4px;
-}
+@media only screen and (max-width: 428px) {
+  body {
+    width: 428px;
+    margin: 0;
+  }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  height: 36px;
-  margin: 32px 32px 0 32px;
-}
+  header {
+    display: flex;
+    justify-content: space-between;
+    height: 36px;
+    margin: 32px 32px 0 32px;
+  }
 
-.mobile-nav {
-  height: 24px;
-  width: 22px;
-  margin-top: 7px;
-}
+  .mobile-nav {
+    height: 24px;
+    width: 22px;
+    margin-top: 7px;
+  }
 
-.hero {
-  display: flex;
-  width: 482.62px;
-  margin: 60px 0 0 32px;
-}
+  .hero {
+    display: flex;
+    width: 428px;
+    margin: 60px 0 0 32px;
+  }
 
-.hero-textbox {
-  width: 274px;
-  height: 410px;
-}
+  .hero-textbox {
+    width: 274px;
+    height: 410px;
+  }
 
-.hero-left {
-  width: 274px;
-}
+  .hero-left {
+    width: 274px;
+  }
 
-.launch-text {
-  width: 169px;
-  height: 19px;
-  font-family: "Inter";
-  font-weight: 700;
-  font-size: 16px;
-  font-style: normal;
-  color: #ff3998;
-  line-height: 19px;
-}
+  .launch-text {
+    width: 169px;
+    height: 19px;
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 16px;
+    font-style: normal;
+    color: #ff3998;
+    line-height: 19px;
+  }
 
-.title {
-  width: 274px;
-  height: 116px;
-  font-family: "Inter";
-  font-weight: 900;
-  font-style: normal;
-  font-size: 48px;
-  line-height: 58px;
-  margin: 4px;
-}
+  .title {
+    width: 274px;
+    height: 116px;
+    font-family: "Inter";
+    font-weight: 900;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 58px;
+    margin: 4px;
+  }
 
-.text {
-  width: 274px;
-  height: 120px;
-  font-family: "Inter";
-  font-weight: 400;
-  font-size: 20px;
-  color: #555555;
-  line-height: 150%;
-}
+  .text {
+    width: 274px;
+    height: 120px;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 20px;
+    color: #555555;
+    line-height: 150%;
+  }
 
-.hero-right img {
-  max-width: 189px;
-  max-height: 278px;
-}
+  .hero-right img {
+    max-width: 189px;
+    max-height: 278px;
+  }
 
-.signup-btn {
-  width: 188px;
-  height: 75px;
-  font-family: "Inter";
-  border-radius: 50px;
-  font-weight: 600;
-  font-size: 20px;
-  color: black;
-  border: solid 4px transparent;
-  background: linear-gradient(#fff, #fff) padding-box,
-    linear-gradient(45deg, pink, red, orange, #39ffa0) border-box;
-  padding: 20px 10px;
-}
+  .signup-btn {
+    width: 188px;
+    height: 75px;
+    font-family: "Inter";
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 20px;
+    color: black;
+    border: solid 4px transparent;
+    background: linear-gradient(#fff, #fff) padding-box,
+      linear-gradient(45deg, pink, red, orange, #39ffa0) border-box;
+    padding: 20px 10px;
+  }
 
-.upsell-bg {
-  background-image: url("assets/bground.svg");
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: flex-end;
-  height: 326px;
-  margin: 30px 0 0 0;
-}
+  .upsell-bg {
+    background-image: url("assets/bground.svg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-end;
+    height: 326px;
+    margin: 30px 0 0 0;
+  }
 
-.upsell-title {
-  width: 364px;
-  height: 96px;
-  font-family: "Inter";
-  font-weight: bold;
-  font-size: 40px;
-  line-height: 48px;
-  text-align: left;
-  margin: 0 0 0 32px;
-}
+  .upsell-title {
+    width: 364px;
+    height: 96px;
+    font-family: "Inter";
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: left;
+    margin: 0 0 0 32px;
+  }
 
-.upsell-text {
-  width: 364px;
-  height: 60px;
-  font-family: "Inter";
-  font-style: bold;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 150%;
-  text-align: left;
-  margin: 15px 0 25px 32px;
-}
+  .upsell-text {
+    width: 364px;
+    height: 60px;
+    font-family: "Inter";
+    font-style: bold;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: left;
+    margin: 15px 0 25px 32px;
+  }
 
-.companies-box {
-  width: 364px;
-  height: 117px;
-  margin: 30px 32px 30px 32px;
-  display: grid;
-  grid-template-columns: 50% 50%;
-  gap: 5px 20px;
-}
+  .companies-box {
+    width: 364px;
+    height: 117px;
+    margin: 30px 32px 30px 32px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 5px 20px;
+  }
 
-.boomerang {
-  height: 40px;
-  overflow: hidden;
-  width: 135px;
-}
+  .boomerang {
+    height: 40px;
+    overflow: hidden;
+    width: 135px;
+  }
 
-.opendoor {
-  display: none;
-}
+  .opendoor {
+    display: none;
+  }
 
-.showcase-container {
-  width: 1280px;
-  height: 642px;
-}
+  .showcase-container {
+    width: 1280px;
+    height: 642px;
+    overflow: hidden;
+    width: 428px;
+  }
 
-.showcase-textarea {
-  width: 364px;
-  height: 202px;
-}
+  .showcase-textarea {
+    width: 364px;
+    height: 202px;
+  }
 
-.showcase-cards {
-  margin: 32px 0 0 32px;
-  display: inline-flex;
-  gap: 40px;
-}
+  .showcase-cards {
+    margin: 32px 0 0 32px;
+    display: inline-flex;
+    gap: 40px;
+  }
 
-.ntf {
-  height: 400px;
-}
+  .ntf {
+    height: 400px;
+  }
 
-.ntf-text-box {
-  width: 290px;
-  height: 110px;
-  background-color: lightgray;
-  border-bottom-left-radius: 16px;
-  border-bottom-right-radius: 16px;
-  display: flex;
-}
+  .ntf-text-box {
+    width: 290px;
+    height: 110px;
+    background-color: lightgray;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    display: flex;
+    margin-top: -4px;
+  }
 
-.ntf-gloop {
-  margin: 20px 0 12px 24px;
-  font-family: "Inter";
-  font-size: 12px;
-  font-weight: 500;
-  line-height: 100%;
-  text-transform: uppercase;
-  color: goldenrod;
-}
+  .ntf-gloop {
+    margin: 20px 0 12px 24px;
+    font-family: "Inter";
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: goldenrod;
+  }
 
-.ntf-bold {
-  margin: 0 0 12px 24px;
-  font-family: "Inter";
-  font-size: 20px;
-  font-weight: bold;
-  line-height: 100%;
-}
+  .ntf-bold {
+    margin: 0 0 12px 24px;
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 100%;
+  }
 
-.eth {
-  float: left;
-  height: auto;
-  margin-right: 8px;
-}
+  .eth {
+    float: left;
+    height: auto;
+    margin-right: 8px;
+  }
 
-.ntf-grey {
-  margin: 0 0 12px 24px;
-  font-family: "Inter";
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 100%;
-  color: #777777;
-}
+  .ntf-grey {
+    margin: 0 0 12px 24px;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    color: #777777;
+  }
 
-.ntf-right {
-  margin: 20px 24px 0 0;
-  text-align: right;
-}
+  .ntf-right {
+    margin: 20px 24px 0 0;
+    text-align: right;
+  }
 
-.footer-upsell {
-  width: 683px;
-  height: 630px;
-  margin: 60px 0 0 32px;
-  display: flex;
+  .footer-upsell {
+    width: 683px;
+    height: 630px;
+    margin: 50px 0 0 32px;
+    display: flex;
+    justify-content: left;
+    border-top: solid #eeeeee 2px;
+    border-bottom: solid #eeeeee 2px;
+  }
+
+  .fotter-upsell-right {
+    width: 270px;
+    margin-top: auto;
+  }
+  .footer-upsell-right img {
+    max-width: 206px;
+    max-height: 467px;
+    margin-top: 164px;
+  }
+
+  .footer-upsell-left {
+    width: 270px;
+    text-align: start;
+    margin-top: 66px;
+  }
+
+  .footer-upsell-title {
+    width: 274px;
+    height: 204px;
+    font-family: "Inter";
+    font-weight: bold;
+    font-style: normal;
+    font-size: 56px;
+    line-height: 68px;
+    margin: 4px;
+  }
+
+  .footer-upsell-text {
+    width: 207px;
+    height: 120px;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 20px;
+    color: #555555;
+    line-height: 150%;
+  }
+
+  .footer-left {
+    width: 233px;
+    height: 136px;
+    margin: 50px 0 0 32px;
+  }
+
+  .footer-text {
+    font-family: "Inter";
+    font-size: 20px;
+    line-height: 100%;
+    margin-top: 30px;
+    font-weight: 400;
+    color: #555555;
+  }
 }
