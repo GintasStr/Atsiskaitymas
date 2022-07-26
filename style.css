@@ -15,6 +15,9 @@
     height: 36px;
     margin: 32px 32px 0 32px;
   }
+  .dekstop-nav {
+    display: none;
+  }
 
   .mobile-nav {
     height: 24px;
@@ -35,6 +38,11 @@
 
   .hero-left {
     width: 274px;
+  }
+
+  .hero-right {
+    height: 278px;
+    width: 100px;
   }
 
   .launch-text {
@@ -70,8 +78,9 @@
   }
 
   .hero-right img {
+    height: 278px;
     max-width: 189px;
-    max-height: 278px;
+    object-fit: cover;
   }
 
   .signup-btn {
@@ -86,6 +95,7 @@
     background: linear-gradient(#fff, #fff) padding-box,
       linear-gradient(45deg, pink, red, orange, #39ffa0) border-box;
     padding: 20px 10px;
+    margin-top: 10px;
   }
 
   .upsell-bg {
@@ -228,7 +238,7 @@
   .footer-upsell-right img {
     max-width: 206px;
     max-height: 467px;
-    margin-top: 164px;
+    margin-top: 162px;
   }
 
   .footer-upsell-left {
@@ -256,6 +266,7 @@
     font-size: 20px;
     color: #555555;
     line-height: 150%;
+    margin-top: 24px;
   }
 
   .footer-left {
@@ -271,5 +282,67 @@
     margin-top: 30px;
     font-weight: 400;
     color: #555555;
+  }
+
+  .social-icons {
+    margin-top: 20px;
+  }
+
+  .fa-brands {
+    color: #999999;
+    padding: 0 16px 0 0;
+  }
+
+  .footer-right {
+    width: 260px;
+    height: 282px;
+    margin: 60px 0 0 32px;
+    display: grid;
+    grid-template-columns: 130px 130px;
+    gap: 20px;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  ul p {
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    color: #555555;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    margin-bottom: 28px;
+  }
+
+  ul li {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    padding-bottom: 10px;
+    text-align: left;
+    color: #555555;
+  }
+
+  .bottom {
+    margin: 64px 0 105px 32px;
+  }
+  .fa-copyright {
+    padding-right: 10px;
+  }
+
+  .bottom p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    color: #999999;
   }
 }
