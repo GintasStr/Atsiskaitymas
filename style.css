@@ -3,7 +3,7 @@
   src: url("assets/Inter/Inter-Regular.ttf");
 }
 
-@media only screen and (max-width: 428px) {
+@media screen and (max-width: 428px) {
   body {
     width: 428px;
     margin: 0;
@@ -15,6 +15,7 @@
     height: 36px;
     margin: 32px 32px 0 32px;
   }
+
   .dekstop-nav {
     display: none;
   }
@@ -152,7 +153,7 @@
   }
 
   .showcase-container {
-    width: 1280px;
+    width: 428px;
     height: 642px;
     overflow: hidden;
     width: 428px;
@@ -233,12 +234,11 @@
 
   .fotter-upsell-right {
     width: 270px;
-    margin-top: auto;
   }
   .footer-upsell-right img {
     max-width: 206px;
     max-height: 467px;
-    margin-top: 162px;
+    margin-top: 160px;
   }
 
   .footer-upsell-left {
@@ -333,6 +333,374 @@
   .bottom {
     margin: 64px 0 105px 32px;
   }
+  .fa-copyright {
+    padding-right: 10px;
+  }
+
+  .bottom p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    color: #999999;
+  }
+
+  .bottom p:last-child {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 430px) and (max-width: 2500px) {
+  body {
+    width: 1440px;
+    margin: 0;
+  }
+
+  .mobile-nav {
+    display: none;
+  }
+
+  header {
+    margin: 70px 80px 0 80px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .dekstop-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .dekstop-nav a {
+    padding-left: 28px;
+    text-decoration: none;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    color: #555555;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    color: black;
+  }
+
+  .dekstop-nav a:last-child {
+    color: #ff3998;
+  }
+
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    width: 1120px;
+    margin: 182px 80px 0 80px;
+  }
+
+  .hero-textbox {
+    width: 274px;
+    height: 519px;
+  }
+
+  .hero-left {
+    width: 620px;
+  }
+
+  .hero-right {
+    height: 519px;
+    width: 354px;
+  }
+
+  .launch-text {
+    width: 169px;
+    height: 19px;
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 16px;
+    font-style: normal;
+    color: #ff3998;
+    line-height: 19px;
+  }
+
+  .title {
+    width: 620px;
+    height: 232px;
+    font-family: "Inter";
+    font-weight: 900;
+    font-style: normal;
+    font-size: 96px;
+    line-height: 116px;
+    margin: 0;
+  }
+
+  .text {
+    width: 537px;
+    height: 60px;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 20px;
+    color: #555555;
+    line-height: 150%;
+    margin-top: 32px;
+  }
+
+  .hero-right img {
+    height: 519px;
+    max-width: 328px;
+    object-fit: cover;
+  }
+
+  .signup-btn {
+    width: 188px;
+    height: 75px;
+    font-family: "Inter";
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 20px;
+    color: black;
+    border: solid 4px transparent;
+    background: linear-gradient(#fff, #fff) padding-box,
+      linear-gradient(45deg, pink, red, orange, #39ffa0) border-box;
+    padding: 20px 10px;
+    margin-top: 32px;
+  }
+
+  .upsell-bg {
+    background-image: url("assets/bground.svg");
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 1280px;
+    height: 320px;
+    margin: 119px 80px 0 80px;
+  }
+
+  .upsell-title {
+    width: 620px;
+    height: 48px;
+    font-family: "Inter";
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: left;
+    margin: 0 0 0 60px;
+  }
+
+  .upsell-text {
+    width: 850px;
+    height: 30px;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    margin: 30px 0 35px 60px;
+  }
+
+  .companies-box {
+    width: 1280px;
+    height: 49px;
+    margin: 80px 80px 0 80px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .showcase-container {
+    width: 1280px;
+    height: 558px;
+    margin: 50px 80px 0 30px;
+  }
+
+  .showcase-textarea {
+    width: 850px;
+    height: 102px;
+    margin-bottom: 56px;
+  }
+
+  .showcase-cards {
+    margin: 0 0 0 50px;
+    display: inline-flex;
+    gap: 40px;
+  }
+
+  .ntf {
+    height: 400px;
+    width: 290px;
+  }
+
+  .ntf-text-box {
+    width: 290px;
+    height: 110px;
+    background-color: lightgray;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    display: flex;
+    margin-top: -4px;
+  }
+
+  .ntf-gloop {
+    margin: 20px 0 12px 24px;
+    font-family: "Inter";
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: goldenrod;
+  }
+
+  .ntf-bold {
+    margin: 0 0 12px 24px;
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 100%;
+  }
+
+  .eth {
+    float: left;
+    height: auto;
+    margin-right: 8px;
+  }
+
+  .ntf-grey {
+    margin: 0 0 12px 24px;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    color: #777777;
+  }
+
+  .ntf-right {
+    margin: 20px 24px 0 0;
+    text-align: right;
+  }
+
+  .footer-upsell {
+    width: 1280px;
+    height: 554px;
+    margin: 80px 80px 0 80px;
+    display: flex;
+    justify-content: left;
+    border-top: solid #eeeeee 2px;
+    border-bottom: solid #eeeeee 2px;
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .fotter-upsell-right {
+    width: 270px;
+  }
+  .footer-upsell-right img {
+    max-width: 206px;
+    max-height: 467px;
+    margin: 85px 0 0 232px;
+  }
+
+  .footer-upsell-left {
+    width: 651px;
+    text-align: start;
+    margin-top: 66px;
+  }
+
+  .footer-upsell-title {
+    width: 620px;
+    height: 68px;
+    font-family: "Inter";
+    font-weight: bold;
+    font-style: normal;
+    font-size: 56px;
+    line-height: 68px;
+    margin: 4px;
+  }
+
+  .footer-upsell-text {
+    width: 537px;
+    height: 60px;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 20px;
+    color: #555555;
+    line-height: 150%;
+    margin-top: 24px;
+  }
+
+  .footer {
+    width: 1280px;
+    margin: 120px 80px 0 80px;
+    display: inline-flex;
+    justify-content: space-between;
+  }
+
+  .footer-left {
+    width: 233px;
+    height: 136px;
+  }
+
+  .footer-text {
+    font-family: "Inter";
+    font-size: 20px;
+    line-height: 100%;
+    margin-top: 30px;
+    font-weight: 400;
+    color: #555555;
+  }
+
+  .social-icons {
+    margin-top: 20px;
+  }
+
+  .fa-brands {
+    color: #999999;
+    padding: 0 16px 0 0;
+  }
+
+  .footer-right {
+    width: 590px;
+    height: 139px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  ul p {
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    color: #555555;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    margin-bottom: 28px;
+  }
+
+  ul li {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    padding-bottom: 10px;
+    text-align: left;
+    color: #555555;
+  }
+
+  .bottom {
+    width: 1280px;
+    height: 20px;
+    display: inline-flex;
+    justify-content: space-between;
+    margin: 64px 80px 70px 80px;
+  }
+
   .fa-copyright {
     padding-right: 10px;
   }
